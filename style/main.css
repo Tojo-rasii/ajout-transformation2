@@ -41,7 +41,6 @@ main section {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    background: red;
 }
 
 /* Article 1 */
@@ -69,98 +68,15 @@ main section article:nth-child(1) picture:nth-child(3) p:first-child {
 }
 
 
-/* Article 2 */
-main section article:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1.5em;
-    margin-top: 2.5em;
-    height: 30em;
-
-}
-
-main section article:nth-child(2) figure {
-    background: #F5F5F5;
-    border: 0.5px solid #A6A3A3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 31em;
-    height: 31em;
-    position: relative;
-    overflow: hidden;
-    border-radius: 2em;
-}
-
-main section article:nth-child(2) figure:first-child picture:first-child {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    margin-top: -3.8em;
-    width: max-content;
-    margin-left: -2.2em;
-}
-
-main section article:nth-child(2) figure picture:first-child img {
-    width: 100%;
-    height: 13em;
-    object-fit: cover;
-    padding: 0;
-}
-
-main section article:nth-child(2) figure:last-child picture:first-child {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 9999;
-    margin-top: -3.2em;
-    margin-right: -1.8em;
-    width: max-content;
-
-}
-
-main section article:nth-child(2) figure:last-child picture:first-child img {
-    width: 100%;
-    height: 10em;
-
-    object-fit: cover;
-    padding: 0;
-}
-
-main section article:nth-child(2) figure picture:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5em;
-    text-align: center;
-}
-
-main section article:nth-child(2) figure picture:nth-child(2) img {
-    width: 4em;
-    height: 4em;
-    object-fit: contain;
-}
-
-main section article:nth-child(2) figure picture:nth-child(2) p {
-    font-size: 1.3em;
-    line-height: 1.5em;
-}
-
 /* FORM */
 
 #article-form {
     margin-top: 2em;
-    background: red;
+    width: 100%;
 }
 
 
 #article-form form {
-    /* background: green; */
     display: flex;
     flex-direction: column;
     gap: 3em;
@@ -170,29 +86,29 @@ main section article:nth-child(2) figure picture:nth-child(2) p {
     margin-top: 2em;
 }
 
-#div-form1 {
+#div-form1 picture{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     gap: 1.5em;
-    background: red;
-    width: max-content;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-inline-end: 1.1em;
     gap: 1.5em;
 }
-#div-form2 label {
+#div-form1  picture label {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-inline-end: 1.1em;
     gap: 1.5em;
+    min-width: 50%;
+    width: auto;
 }
 
 
-#div-form1 label span {
+#div-form1 picture label span {
     margin-top: -0.1em;
 
 }
@@ -202,7 +118,7 @@ main section article:nth-child(2) figure picture:nth-child(2) p {
 
 }
 
-:where(#div-form1, #div-form2, #div-form3) label {
+:where(#div-form1, #div-form2, #div-form4) label {
     outline: 1px solid #949494;
     width:  max-content!important;
     border-radius: 1.2em;
@@ -210,16 +126,16 @@ main section article:nth-child(2) figure picture:nth-child(2) p {
 
 }
 
-:where(#div-form1, #div-form2, #div-form3) label:focus-within {
+:where(#div-form1, #div-form2, #div-form4) label:focus-within {
     outline: 1px solid teal;
 }
 
-:where(#div-form1, #div-form2, #div-form3) label:focus-within .styleSpan {
+:where(#div-form1, #div-form2, #div-form4) label:focus-within .styleSpan {
     color: teal;
 }
 
 
-:where(#div-form1, #div-form2, #div-form3) label span {
+:where(#div-form1, #div-form2, #div-form4) label span {
     position: absolute;
     font-size: 0.9em;
     font-weight: 400;
@@ -229,7 +145,7 @@ main section article:nth-child(2) figure picture:nth-child(2) p {
     padding-inline: 0.4em;
     cursor: text;
 }
-:where(#div-form1, #div-form2, #div-form3) label input::placeholder {
+:where(#div-form1, #div-form2, #div-form4) label input::placeholder {
     font-size: 1em;
     font-weight: 400;
     margin-top: -0.7em;
@@ -253,6 +169,15 @@ input[type="number"]::-webkit-outer-spin-button {
 /* style input */
 .label {
     position: relative;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+align-items: center;
+min-width: 100%;
+padding-inline-end: 1.5em;
 }
 
 .label-span {
@@ -295,7 +220,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 
 
-:where(#div-form1, #div-form2, #div-form3) label :is(input, textarea) {
+:where(#div-form1, #div-form2, #div-form4) label :is(input, textarea) {
     width: 100%;
     height: 5em;
     border: none;
@@ -305,10 +230,6 @@ input[type="number"]::-webkit-outer-spin-button {
     font-family: 'montserrat' !important;
     resize: none;
     background: none;
-}
-
-main section article:nth-child(3) form div label textarea {
-    height: 13em;
 }
 
 #sub {
@@ -327,12 +248,27 @@ main section article:nth-child(3) form div label textarea {
     background: none;
     margin-left: 1em;
 }
+#div-form5 {
+    min-width: 100%;
+}
+#div-form5 picture{
+    background: red;
+    min-width: 100%;
+}
+#div-form5 picture img{
+   width: 100%;
+   height: auto;
 
-#div-form5 picture {
+}
+
+#div-form6{
     display: flex;
-    flex-direction: row;
-    gap: 1em;
-    justify-content: end;
-    border-top: 1px solid #d9d9d9;
-    padding-top: 2em;
+     flex-direction: row;
+     gap: 2em;
+     justify-content: end;
+}
+#div-form6 picture{
+    display: flex;
+     flex-direction: row;
+     gap: 1em;
 }

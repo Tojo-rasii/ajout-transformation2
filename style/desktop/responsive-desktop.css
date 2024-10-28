@@ -13,11 +13,6 @@
         margin: 0 auto;
     }
 
-    #figMobile,
-    #figMobile2 {
-        width: 27em !important;
-        height: 27em !important;
-    }
 
 }
 
@@ -38,18 +33,6 @@
     main section {
         width: 100% !important;
         margin: 0 auto;
-    }
-
-    main section article:nth-child(2) {
-        gap: 0 !important;
-    }
-
-
-    main section article:nth-child(2) figure {
-
-        width: 29em !important;
-        height: 29em !important;
-
     }
 }
 
@@ -90,12 +73,7 @@
         margin: 0 auto;
     }
 
-    main section article:nth-child(2) figure {
 
-        width: 31em !important;
-        height: 31em !important;
-
-    }
 }
 
 @media screen and (min-width: 1278px) {
