@@ -79,7 +79,7 @@
     /* MAIN */
     /* DROPPING */
 
-   #div-form1  {
+   #div-form1 picture {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap !important;
@@ -89,14 +89,12 @@
     }
 
    #div-form1  label:nth-child(1) {
-        width: 47%;
-        min-width: 47%;
+        min-width: 100%;
         max-width: 100%;
     }
 
    #div-form1  label:nth-child(2) {
-        width: 47%;
-        min-width: 47%;
+        min-width: 100%;
         max-width: 100%;
     }
 

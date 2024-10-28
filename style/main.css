@@ -103,7 +103,7 @@ main section article:nth-child(1) picture:nth-child(3) p:first-child {
     align-items: center;
     padding-inline-end: 1.1em;
     gap: 1.5em;
-    min-width: 50%;
+    min-width: 49.7%;
     width: auto;
 }
 
@@ -180,6 +180,18 @@ min-width: 100%;
 padding-inline-end: 1.5em;
 }
 
+.pi-s{
+    padding-inline-start: 1em;
+    color: teal;
+}
+.pi-s input{
+    color: teal !important;
+
+}
+.pi-s i{
+    color: teal !important;
+}
+
 .label-span {
     transition: 0.3s ease;
     margin-left: 1.1em !important;
@@ -250,15 +262,16 @@ padding-inline-end: 1.5em;
 }
 #div-form5 {
     min-width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 3em;
 }
 #div-form5 picture{
-    background: red;
     min-width: 100%;
 }
 #div-form5 picture img{
    width: 100%;
    height: auto;
-
+border-radius: 1em;
 }
 
 #div-form6{
