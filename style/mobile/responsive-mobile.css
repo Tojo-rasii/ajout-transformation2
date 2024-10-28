@@ -1,0 +1,144 @@
+@media only screen and (max-width: 430px) {
+    main section article:nth-child(2) figure {
+        width: 100% !important;
+        height: 25em !important;
+    }
+
+    /* 
+    main section article:nth-child(3) form div:nth-child(2) label:nth-child(1) {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100%;
+    }
+
+    main section article:nth-child(3) form div:nth-child(2) label:nth-child(2) {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100%;
+    } */
+}
+
+@media only screen and (max-width: 350px) {
+    main section article:nth-child(2) figure {
+        width: 100% !important;
+        height: 25em !important;
+    }
+
+  #div-form1 label:nth-child(1) {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100%;
+    }
+
+  #div-form1 label:nth-child(2) {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    html {
+        font-size: 0.8em;
+    }
+
+
+    #navTransformation {
+        display: none;
+    }
+
+    #navTransformationMobile {
+        display: block;
+        box-shadow: 0px 2px 4px 0px #00000026 !important;
+        padding: 1.5em 2.5em !important;
+    }
+
+
+    main {
+        width: 95% !important;
+        margin: 0 auto;
+    }
+
+
+    main section {
+        width: 95.5% !important;
+        margin: 0 auto;
+    }
+
+    input[type="range"] {
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        position: absolute;
+        left: 0;
+        margin-top: 0.5em !important;
+    }
+
+    main section article:nth-child(1) picture:nth-child(3) {
+        margin-top: 2em !important;
+    }
+
+    main section article:nth-child(1) picture:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    /* MAIN */
+    /* DROPPING */
+    main section article:nth-child(2) {
+        height: max-content !important;
+    }
+
+    main section article:nth-child(2) figure {
+        width: 100% !important;
+    }
+
+    main section article:nth-child(3) form div:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap !important;
+        gap: 1.5em;
+        row-gap: 3em !important;
+
+    }
+
+    main section article:nth-child(3) form div:nth-child(2) label:nth-child(1) {
+        width: 47%;
+        min-width: 47%;
+        max-width: 100%;
+    }
+
+    main section article:nth-child(3) form div:nth-child(2) label:nth-child(2) {
+        width: 47%;
+        min-width: 47%;
+        max-width: 100%;
+    }
+
+    main section article:nth-child(3) form div:nth-child(2) label:last-child {
+        width: 100%;
+    }
+
+
+    main section article:nth-child(3) form div:nth-child(4) picture:first-child p:nth-child(1) {
+        opacity: 0;
+    }
+
+    main section article:nth-child(3) form div:nth-child(4) picture:last-child p {
+        float: left !important;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    main section article:nth-child(3) form div:nth-child(5) picture {
+        display: flex;
+        flex-direction: column !important;
+        gap: 2em !important;
+        border-top: none !important;
+        margin-top: -3em !important;
+
+    }
+
+    .label-span {
+        margin-bottom: 1em !important;
+    }
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Add trandformation</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/mobile/responsive-mobile.css">
+    <link rel="stylesheet" href="style/desktop/responsive-desktop.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <nav id="navTransformation">
+            <section>
+                <!-- Logo -->
+                <article>
+                    <img src="Asset/logo.png" alt="Logo">
+                </article>
+
+                <article>
+                    <picture>
+                        <button class="btn-ctp">
+                            Publier tes transformations
+                        </button>
+                        <i class="bell">
+                            <svg width="22" height="22" viewBox="0 0 18 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.74925 0C8.05785 0 7.49925 0.558594 7.49925 1.25V2C4.64769 2.57812 2.49925 5.10156 2.49925 8.125V8.85938C2.49925 10.6953 1.82347 12.4688 0.604721 13.8438L0.315659 14.168C-0.0124665 14.5352 -0.0905915 15.0625 0.108627 15.5117C0.307846 15.9609 0.757065 16.25 1.24925 16.25H16.2493C16.7414 16.25 17.1868 15.9609 17.3899 15.5117C17.593 15.0625 17.511 14.5352 17.1828 14.168L16.8938 13.8438C15.675 12.4688 14.9993 10.6992 14.9993 8.85938V8.125C14.9993 5.10156 12.8508 2.57812 9.99925 2V1.25C9.99925 0.558594 9.44066 0 8.74925 0ZM10.5188 19.2695C10.9875 18.8008 11.2493 18.1641 11.2493 17.5H8.74925H6.24925C6.24925 18.1641 6.51097 18.8008 6.97972 19.2695C7.44847 19.7383 8.08519 20 8.74925 20C9.41331 20 10.05 19.7383 10.5188 19.2695Z"
+                                    fill="black" />
+                            </svg>
+                            <span id="spanNotif">4</span>
+                        </i>
+                        <i class="chat">
+                            <svg width="22" height="22" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.50011 0C1.12114 0 0 1.12114 0 2.50011V13.7506C0 15.1296 1.12114 16.2507 2.50011 16.2507H6.25027V19.3758C6.25027 19.6141 6.38309 19.829 6.59403 19.9345C6.80498 20.0399 7.0589 20.0165 7.25031 19.8759L12.0826 16.2507H17.5008C18.8797 16.2507 20.0009 15.1296 20.0009 13.7506V2.50011C20.0009 1.12114 18.8797 0 17.5008 0H2.50011Z"
+                                    fill="black" />
+                            </svg>
+                        </i>
+                        <i class="heart">
+                            <svg width="22" height="22" viewBox="0 0 24 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.17426 11.7963L10.4283 19.5021C10.7708 19.8219 11.223 20 11.6935 20C12.164 20 12.6162 19.8219 12.9588 19.5021L21.2128 11.7963C22.6014 10.5036 23.3871 8.69017 23.3871 6.79454V6.52961C23.3871 3.33673 21.0803 0.614326 17.9331 0.0890309C15.8502 -0.258121 13.7308 0.422479 12.2417 1.91158L11.6935 2.45971L11.1454 1.91158C9.65629 0.422479 7.53684 -0.258121 5.45393 0.0890309C2.30673 0.614326 0 3.33673 0 6.52961V6.79454C0 8.69017 0.785659 10.5036 2.17426 11.7963Z"
+                                    fill="black" />
+                            </svg>
+
+                        </i>
+
+                        <div id="Profile">
+                            <label for="toggle">
+                                <img src="Asset/profile.png" alt="">
+                                <input type="checkbox" id="toggle"></label>
+                            <figure id="pop-show">
+                                <div>
+                                    <p>
+                                        <span>
+                                            <i class="bi-person-fill"></i>
+                                        </span>
+                                        <span>Mon profile</span>
+                                    </p>
+                                    <p>
+                                        <span><i class="bi-speedometer2"></i></span>
+
+                                        <span>Tableau de bord</span>
+                                    </p>
+                                    <p>
+                                        <span>
+                                            <i class="bi-file-earmark-text-fill"></i>
+                                        </span>
+                                        <span>Mes candidatures</span>
+                                    </p>
+                                    <p>
+                                        <span>
+                                            <i class="bi-bell-fill"></i>
+                                        </span>
+                                        <span>Mes notifications</span>
+                                    </p>
+                                    <p>
+                                        <span>
+                                            <i class="bi-person-fill-gear"></i>
+                                        </span>
+                                        <span>Gerer Multiprofile</span>
+                                    </p>
+                                    <p>
+                                        <span>
+                                            <i class="bi-box-arrow-right"></i>
+                                        </span>
+                                        <span>Se deconnecter</span>
+                                    </p>
+                                </div>
+                            </figure>
+                        </div>
+
+
+                    </picture>
+                </article>
+            </section>
+        </nav>
+
+        <nav id="navTransformationMobile">
+            <section>
+                <!-- Logo -->
+                <article>
+                    <img src="Asset/logo.png" alt="Logo" id="logo">
+                </article>
+
+                <article>
+                    <svg width="27" height="27" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0 3.5C0 1.56406 1.34062 0 3 0H39C40.6594 0 42 1.56406 42 3.5C42 5.43594 40.6594 7 39 7H3C1.34062 7 0 5.43594 0 3.5ZM0 21C0 19.0641 1.34062 17.5 3 17.5H39C40.6594 17.5 42 19.0641 42 21C42 22.9359 40.6594 24.5 39 24.5H3C1.34062 24.5 0 22.9359 0 21ZM42 38.5C42 40.4359 40.6594 42 39 42H3C1.34062 42 0 40.4359 0 38.5C0 36.5641 1.34062 35 3 35H39C40.6594 35 42 36.5641 42 38.5Z"
+                            fill="#474747" />
+                    </svg>
+
+                </article>
+            </section>
+        </nav>
+
+
+        <main>
+            <section>
+                <!-- TITLE -->
+                <article>
+                    <picture>
+                        <p>Dernière étape !</p>
+                    </picture>
+                    <picture>
+                        <input type="range" name="" id="" disabled>
+                    </picture>
+                    <picture>
+                        <p>Localisation et détails des produits</p>
+                        <p>Avez-vous utilisé un produit pour atteindre ces résultats ? Ajoutez son nom et un lien pour permettre à d'autres de le découvrir.</p>
+                    </picture>
+                </article>
+
+              
+
+                <!-- FORM -->
+                <article id="article-form">
+                    <form>
+
+                        <div id="div-form1">
+                            <label for="produit" class="label">
+                                <span class="label-span">Nom du produit</span>
+                                <input type="text" name="" id="produit" placeholder="Ajouter le nom du produit">
+                            </label>
+                            <label for="cout" class="label">
+                                <span class="label-span">Coût du produit</span>
+                                <input type="text" id="cout" placeholder="">
+                                <i>
+                                <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.71786 7.42857C1.71429 7.525 1.71429 7.61786 1.71429 7.71429V8.28572C1.71429 8.38214 1.71429 8.475 1.71786 8.57143H1.14286C0.510714 8.57143 0 9.08214 0 9.71429C0 10.3464 0.510714 10.8571 1.14286 10.8571H2.15357C3.21071 13.8536 6.07143 16 9.42857 16H10.2857C10.9179 16 11.4286 15.4893 11.4286 14.8571C11.4286 14.225 10.9179 13.7143 10.2857 13.7143H9.42857C7.36071 13.7143 5.56429 12.5571 4.64643 10.8571H9.14286C9.775 10.8571 10.2857 10.3464 10.2857 9.71429C10.2857 9.08214 9.775 8.57143 9.14286 8.57143H4.00714C4.00357 8.47857 4 8.38214 4 8.28572V7.71429C4 7.61786 4.00357 7.52143 4.00714 7.42857H9.14286C9.775 7.42857 10.2857 6.91786 10.2857 6.28571C10.2857 5.65357 9.775 5.14286 9.14286 5.14286H4.64643C5.56429 3.44286 7.36071 2.28571 9.42857 2.28571H10.2857C10.9179 2.28571 11.4286 1.775 11.4286 1.14286C11.4286 0.510714 10.9179 0 10.2857 0H9.42857C6.07143 0 3.21071 2.14643 2.15357 5.14286H1.14286C0.510714 5.14286 0 5.65357 0 6.28571C0 6.91786 0.510714 7.42857 1.14286 7.42857H1.71786Z" fill="#A6A3A3"/>
+                                    </svg>
+                                </i>
+                            </label>
+                        </div>
+
+                        <div id="div-form2">
+                            <label for="" class="label">
+                            <!-- <span class="styleSpan">Lien du produit</span> -->
+                            <input type="text" name="" id="" placeholder="Lien du produit">
+                            <i>
+                                <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.1184 8.39804C21.0406 6.4759 21.0406 3.36306 19.1184 1.44093C17.4174 -0.260078 14.7367 -0.481208 12.7805 0.917017L12.7261 0.95444C12.2362 1.30485 12.1239 1.98525 12.4743 2.47174C12.8247 2.95822 13.5051 3.07389 13.9916 2.72348L14.046 2.68606C15.1381 1.907 16.6316 2.02947 17.5773 2.97863C18.649 4.05027 18.649 5.78529 17.5773 6.85692L13.7603 10.6808C12.6886 11.7524 10.9536 11.7524 9.88198 10.6808C8.93282 9.73162 8.81035 8.23814 9.58941 7.1495L9.62683 7.09507C9.97724 6.60518 9.86157 5.92477 9.37508 5.57777C8.8886 5.23076 8.20479 5.34303 7.85779 5.82952L7.82037 5.88395C6.41874 7.8367 6.63987 10.5175 8.34088 12.2185C10.263 14.1406 13.3758 14.1406 15.298 12.2185L19.1184 8.39804ZM1.4416 7.60196C-0.480534 9.5241 -0.480534 12.6369 1.4416 14.5591C3.14261 16.2601 5.82339 16.4812 7.77954 15.083L7.83398 15.0456C8.32386 14.6952 8.43613 14.0148 8.08572 13.5283C7.73532 13.0418 7.05492 12.9261 6.56843 13.2765L6.514 13.3139C5.42195 14.093 3.92847 13.9705 2.98271 13.0214C1.91108 11.9463 1.91108 10.2113 2.98271 9.13967L6.79977 5.31922C7.8714 4.24758 9.60642 4.24758 10.6781 5.31922C11.6272 6.26838 11.7497 7.76186 10.9706 8.8539L10.9332 8.90834C10.5828 9.39823 10.6985 10.0786 11.185 10.4256C11.6714 10.7726 12.3552 10.6604 12.7023 10.1739L12.7397 10.1195C14.1413 8.1633 13.9202 5.48251 12.2192 3.78151C10.297 1.85937 7.18419 1.85937 5.26206 3.78151L1.4416 7.60196Z" fill="#A6A3A3"/>
+                                    </svg>                                    
+                            </i>
+                        </label>
+                        </div>
+
+                        <div id="div-form3">
+                            <picture>
+                                <p>Où cette transformation a-t-elle eu lieu ? Indiquez la localisation pour rendre votre expérience encore plus authentique.</p>
+                            </picture>
+                        </div>
+
+                        <div id="div-form4">
+                            <span>Lien du produit</span>
+                            <input type="text" name="" id="" placeholder="Ajouter le nom du produit">
+                            <i>
+                                <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.1184 8.39804C21.0406 6.4759 21.0406 3.36306 19.1184 1.44093C17.4174 -0.260078 14.7367 -0.481208 12.7805 0.917017L12.7261 0.95444C12.2362 1.30485 12.1239 1.98525 12.4743 2.47174C12.8247 2.95822 13.5051 3.07389 13.9916 2.72348L14.046 2.68606C15.1381 1.907 16.6316 2.02947 17.5773 2.97863C18.649 4.05027 18.649 5.78529 17.5773 6.85692L13.7603 10.6808C12.6886 11.7524 10.9536 11.7524 9.88198 10.6808C8.93282 9.73162 8.81035 8.23814 9.58941 7.1495L9.62683 7.09507C9.97724 6.60518 9.86157 5.92477 9.37508 5.57777C8.8886 5.23076 8.20479 5.34303 7.85779 5.82952L7.82037 5.88395C6.41874 7.8367 6.63987 10.5175 8.34088 12.2185C10.263 14.1406 13.3758 14.1406 15.298 12.2185L19.1184 8.39804ZM1.4416 7.60196C-0.480534 9.5241 -0.480534 12.6369 1.4416 14.5591C3.14261 16.2601 5.82339 16.4812 7.77954 15.083L7.83398 15.0456C8.32386 14.6952 8.43613 14.0148 8.08572 13.5283C7.73532 13.0418 7.05492 12.9261 6.56843 13.2765L6.514 13.3139C5.42195 14.093 3.92847 13.9705 2.98271 13.0214C1.91108 11.9463 1.91108 10.2113 2.98271 9.13967L6.79977 5.31922C7.8714 4.24758 9.60642 4.24758 10.6781 5.31922C11.6272 6.26838 11.7497 7.76186 10.9706 8.8539L10.9332 8.90834C10.5828 9.39823 10.6985 10.0786 11.185 10.4256C11.6714 10.7726 12.3552 10.6604 12.7023 10.1739L12.7397 10.1195C14.1413 8.1633 13.9202 5.48251 12.2192 3.78151C10.297 1.85937 7.18419 1.85937 5.26206 3.78151L1.4416 7.60196Z" fill="#A6A3A3"/>
+                                    </svg>                                    
+                            </i>
+                        </div>
+
+                        <div id="div-form5">
+ <picture>
+    <img src="Asset/located.png" alt="">
+ </picture>
+                        </div>
+                        
+
+                        <div>
+                            <picture>
+                                <button class="bg2">Sauvegarder le broullion</button>
+                                <button class="btn-ctp">Suivant</button>
+                            </picture>
+                        </div>
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+    </div>
+
+    <script src="Javascript/script.js"></script>
+</body>
+
+</html>
