@@ -277,9 +277,13 @@ padding-inline-end: 1.5em;
 border-radius: 1em;
 }
 #div-form5 picture svg{
-    position: absolute;
-    left: 29%;
     margin-top: 3.5em;
+    margin-left: -54.5em !important;
+     }
+#div-form5 picture svg{
+    position: absolute;
+    margin-top: 3.5em;
+    margin-left: -54.5em !important;
      }
 #div-form6{
     display: flex;
