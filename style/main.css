@@ -3,7 +3,7 @@ input[type="range"] {
     -webkit-appearance: none;
     /* Supprime le style par défaut */
     width: 100%;
-    background: linear-gradient(to right, #027580 50%, #ddd 50%);
+    background: linear-gradient(to right, #027580 100%, #ddd 50%);
     /* Couleur remplie à 50% */
     height: 1em;
     /* Hauteur de la barre */
