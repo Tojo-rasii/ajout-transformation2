@@ -263,6 +263,14 @@ padding-inline-end: 1.5em;
     background: none;
     margin-left: 1em;
 }
+#div-form2 input::placeholder{
+    color: currentColor !important;
+    font-weight: 500;
+}
+#div-form4 input::placeholder{
+    color: teal !important;
+    font-weight: 600;
+}
 #div-form5 {
     min-width: 100%;
     border-bottom: 1px solid #d9d9d9;
@@ -277,13 +285,10 @@ padding-inline-end: 1.5em;
 border-radius: 1em;
 }
 #div-form5 picture svg{
-    margin-top: 3.5em;
-    margin-left: -54.5em !important;
-     }
-#div-form5 picture svg{
-    position: absolute;
-    margin-top: 3.5em;
-    margin-left: -54.5em !important;
+    margin-top: -35.5em;
+    margin-bottom: 4.8em;
+    margin-left: 12em;
+    object-fit: cover;
      }
 #div-form6{
     display: flex;
