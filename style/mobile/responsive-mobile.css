@@ -170,7 +170,7 @@ display: none;
 
 
           #svgMobile{
-            display: block !important;
+            display: none !important;
             position: absolute;
             margin-top: -50em;
             margin-left: 8em;
