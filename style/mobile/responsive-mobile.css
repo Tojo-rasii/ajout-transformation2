@@ -30,35 +30,32 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
-    #div-form5 picture svg{
-        width: 50vw;
+@media only screen and (max-width: 500px) {
+   
+    #svgMobile{
+        width:80vw;
         height: auto;
-        margin-left: 8em !important;
-margin-top: 2em !important;
-margin-bottom: -25em !important;
 
-          }
-        }
-@media only screen and (max-width: 530px) {
-    #div-form5 picture svg{
-        width: 50vw;
-        height: auto;
-        margin-left: 8em !important;
-margin-top: -10em !important;
-margin-bottom: 1em !important;
-
-          }
+      }
 }
-@media only screen and (max-width: 625px) {
-    #div-form5 picture svg{
-        width: 52vw;
-        height: auto;
-        margin-left: 10em !important;
-margin-top: -15em !important;
-margin-bottom: 1em !important;
+@media only screen and (max-width: 580px) {
+   
+    #svgMobile{
+        left: -0.5em !important;
+/* margin-top: -48em !important; */
+scale: 0.9;
 
-          }
+      }
+}
+@media only screen and (max-width: 706px) {
+   
+    #svgMobile{
+        display: block !important;
+        position: absolute;
+        margin-left: 3em !important;
+/* margin-top: -48em !important; */
+
+      }
 }
 @media only screen and (max-width: 930px) {
     html {
@@ -156,12 +153,29 @@ margin-bottom: 1em !important;
         margin-bottom: 1em !important;
     }
 
-    #div-form5 picture svg{
+    #div-form5 picture img{
+        width: 100%;
+        height: 53vh !important;
+     border-radius: 1em;
+     object-fit: cover;
+     }
+
+    #svgDesktop{
         width: 52vw;
         height: auto;
         margin-left: 10em !important;
 margin-bottom: 5em !important;
 display: none;
+          }
+
+
+          #svgMobile{
+            display: block !important;
+            position: absolute;
+            margin-top: -50em;
+            margin-left: 8em;
+    /* margin-top: -48em !important; */
+
           }
 
   
