@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
-    <title>Add trandformation</title>
+    <title>sign up</title>
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="style/mobile/responsive-mobile.css">
     <link rel="stylesheet" href="style/desktop/responsive-desktop.css">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/input.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
@@ -127,106 +128,131 @@
         <main>
             <section>
                 <!-- TITLE -->
-                <article>
-                    <picture>
-                        <p>Dernière étape !</p>
-                    </picture>
-                    <picture>
-                        <input type="range" name="" id="" disabled>
-                    </picture>
-                    <picture>
-                        <p>Localisation et détails des produits</p>
-                        <p>Avez-vous utilisé un produit pour atteindre ces résultats ? Ajoutez son nom et un lien pour permettre à d'autres de le découvrir.</p>
-                    </picture>
-                </article>
+                <!-- nav tabs -->
+                <section id="nav-tabs-dashboard">
+                    <article>
+                        <picture class="tab active" data-target="active">
+                            <p>PARTICULIER</p>
 
-              
-
-                <!-- FORM -->
-                <article id="article-form">
-                    <form>
-
-                        <div id="div-form1">
-                            <picture>
-                            <label for="produit" class="label">
-                                <span class="label-span">Nom du produit</span>
-                                <input type="text" name="" id="produit" placeholder="Ajouter le nom du produit">
-                            </label>
-                            <label for="cout" class="label">
-                                <span class="label-span">Coût du produit</span>
-                                <input type="text" id="cout" placeholder="">
-                                <i>
-                                <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.71786 7.42857C1.71429 7.525 1.71429 7.61786 1.71429 7.71429V8.28572C1.71429 8.38214 1.71429 8.475 1.71786 8.57143H1.14286C0.510714 8.57143 0 9.08214 0 9.71429C0 10.3464 0.510714 10.8571 1.14286 10.8571H2.15357C3.21071 13.8536 6.07143 16 9.42857 16H10.2857C10.9179 16 11.4286 15.4893 11.4286 14.8571C11.4286 14.225 10.9179 13.7143 10.2857 13.7143H9.42857C7.36071 13.7143 5.56429 12.5571 4.64643 10.8571H9.14286C9.775 10.8571 10.2857 10.3464 10.2857 9.71429C10.2857 9.08214 9.775 8.57143 9.14286 8.57143H4.00714C4.00357 8.47857 4 8.38214 4 8.28572V7.71429C4 7.61786 4.00357 7.52143 4.00714 7.42857H9.14286C9.775 7.42857 10.2857 6.91786 10.2857 6.28571C10.2857 5.65357 9.775 5.14286 9.14286 5.14286H4.64643C5.56429 3.44286 7.36071 2.28571 9.42857 2.28571H10.2857C10.9179 2.28571 11.4286 1.775 11.4286 1.14286C11.4286 0.510714 10.9179 0 10.2857 0H9.42857C6.07143 0 3.21071 2.14643 2.15357 5.14286H1.14286C0.510714 5.14286 0 5.65357 0 6.28571C0 6.91786 0.510714 7.42857 1.14286 7.42857H1.71786Z" fill="#A6A3A3"/>
-                                    </svg>
-                                </i>
-                            </label>
                         </picture>
-                        </div>
 
-                        <div id="div-form2">
-                            <label for="" class="label flex">
-                            <!-- <span class="styleSpan">Lien du produit</span> -->
-                            <input type="text" name="" id="" placeholder="Lien du produit">
-                            <i>
-                                <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.1184 8.39804C21.0406 6.4759 21.0406 3.36306 19.1184 1.44093C17.4174 -0.260078 14.7367 -0.481208 12.7805 0.917017L12.7261 0.95444C12.2362 1.30485 12.1239 1.98525 12.4743 2.47174C12.8247 2.95822 13.5051 3.07389 13.9916 2.72348L14.046 2.68606C15.1381 1.907 16.6316 2.02947 17.5773 2.97863C18.649 4.05027 18.649 5.78529 17.5773 6.85692L13.7603 10.6808C12.6886 11.7524 10.9536 11.7524 9.88198 10.6808C8.93282 9.73162 8.81035 8.23814 9.58941 7.1495L9.62683 7.09507C9.97724 6.60518 9.86157 5.92477 9.37508 5.57777C8.8886 5.23076 8.20479 5.34303 7.85779 5.82952L7.82037 5.88395C6.41874 7.8367 6.63987 10.5175 8.34088 12.2185C10.263 14.1406 13.3758 14.1406 15.298 12.2185L19.1184 8.39804ZM1.4416 7.60196C-0.480534 9.5241 -0.480534 12.6369 1.4416 14.5591C3.14261 16.2601 5.82339 16.4812 7.77954 15.083L7.83398 15.0456C8.32386 14.6952 8.43613 14.0148 8.08572 13.5283C7.73532 13.0418 7.05492 12.9261 6.56843 13.2765L6.514 13.3139C5.42195 14.093 3.92847 13.9705 2.98271 13.0214C1.91108 11.9463 1.91108 10.2113 2.98271 9.13967L6.79977 5.31922C7.8714 4.24758 9.60642 4.24758 10.6781 5.31922C11.6272 6.26838 11.7497 7.76186 10.9706 8.8539L10.9332 8.90834C10.5828 9.39823 10.6985 10.0786 11.185 10.4256C11.6714 10.7726 12.3552 10.6604 12.7023 10.1739L12.7397 10.1195C14.1413 8.1633 13.9202 5.48251 12.2192 3.78151C10.297 1.85937 7.18419 1.85937 5.26206 3.78151L1.4416 7.60196Z" fill="#A6A3A3"/>
-                                    </svg>                                    
-                            </i>
-                        </label>
-                        </div>
+                        <picture class="tab" data-target="desactive">
+                            <p>SOCIETE</p>
+                        </picture>
 
-                        <div id="div-form3">
-                            <picture>
-                                <p>Où cette transformation a-t-elle eu lieu ? Indiquez la localisation pour rendre votre expérience encore plus authentique.</p>
-                            </picture>
-                        </div>
+                    </article>
+                </section>
 
-                        <div id="div-form4">
-                            <label class="label flex pi-s">
-                            <i>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 0C10.6914 0 11.25 0.558594 11.25 1.25V2.60547C14.3906 3.12891 16.8711 5.60938 17.3945 8.75H18.75C19.4414 8.75 20 9.30859 20 10C20 10.6914 19.4414 11.25 18.75 11.25H17.3945C16.8711 14.3906 14.3906 16.8711 11.25 17.3945V18.75C11.25 19.4414 10.6914 20 10 20C9.30859 20 8.75 19.4414 8.75 18.75V17.3945C5.60938 16.8711 3.12891 14.3906 2.60547 11.25H1.25C0.558594 11.25 0 10.6914 0 10C0 9.30859 0.558594 8.75 1.25 8.75H2.60547C3.12891 5.60938 5.60938 3.12891 8.75 2.60547V1.25C8.75 0.558594 9.30859 0 10 0ZM5 10C5 11.3261 5.52678 12.5979 6.46447 13.5355C7.40215 14.4732 8.67392 15 10 15C11.3261 15 12.5979 14.4732 13.5355 13.5355C14.4732 12.5979 15 11.3261 15 10C15 8.67392 14.4732 7.40215 13.5355 6.46447C12.5979 5.52678 11.3261 5 10 5C8.67392 5 7.40215 5.52678 6.46447 6.46447C5.52678 7.40215 5 8.67392 5 10ZM10 6.875C10.8288 6.875 11.6237 7.20424 12.2097 7.79029C12.7958 8.37634 13.125 9.1712 13.125 10C13.125 10.8288 12.7958 11.6237 12.2097 12.2097C11.6237 12.7958 10.8288 13.125 10 13.125C9.1712 13.125 8.37634 12.7958 7.79029 12.2097C7.20424 11.6237 6.875 10.8288 6.875 10C6.875 9.1712 7.20424 8.37634 7.79029 7.79029C8.37634 7.20424 9.1712 6.875 10 6.875Z" fill="#81BAC0"/>
-                                    </svg>
-                                                                     
-                            </i>
-                            <input type="text" name="" id="" placeholder="Marseille, 30 Rue, France">
-                            <svg width="29" height="29" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.1" width="34" height="32" rx="16" fill="#81BAC0"/>
-                                <path d="M22.6449 12.0494C23.1134 11.5808 23.1134 10.8199 22.6449 10.3514C22.1763 9.88287 21.4154 9.88287 20.9469 10.3514L17 14.302L13.0494 10.3551C12.5808 9.88662 11.8199 9.88662 11.3514 10.3551C10.8829 10.8237 10.8829 11.5846 11.3514 12.0531L15.302 16L11.3551 19.9506C10.8866 20.4192 10.8866 21.1801 11.3551 21.6486C11.8237 22.1171 12.5846 22.1171 13.0531 21.6486L17 17.698L20.9506 21.6449C21.4192 22.1134 22.1801 22.1134 22.6486 21.6449C23.1171 21.1763 23.1171 20.4154 22.6486 19.9469L18.698 16L22.6449 12.0494Z" fill="#81BAC0"/>
-                                </svg>
-                                
-                        </label>
-                        </div>
 
-                        <div id="div-form5">
- <picture>
-    <img src="Asset/located.png" alt="">
-    <svg width="627" height="352" id="svgDesktop" viewBox="0 0 627 352" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path opacity="0.3" d="M344.889 351.009L10.5852 227.544C-0.143803 223.581 -3.37092 209.968 4.43776 201.611L106.349 92.5452L216.34 3.561C219.188 1.257 222.74 0 226.403 0H542.503C550.063 0 556.591 5.29045 558.156 12.6858L625.911 332.686C628.017 342.635 620.428 352 610.258 352H350.432C348.541 352 346.664 351.665 344.889 351.009Z" fill="#EE7563"/>
-        </svg>
-        <svg width="500" height="500" id="svgMobile" viewBox="0 0 240 269" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path opacity="0.3" d="M128.98 265.864L6.51577 175.293C0.39732 170.768 -1.68735 162.559 1.53048 155.663L41.1644 70.7235L80.1301 7.59599C83.0444 2.87454 88.1968 0 93.7452 0H198.161C206.346 0 213.211 6.17775 214.072 14.3177L239.13 251.318C240.13 260.767 232.721 269 223.219 269H138.494C135.069 269 131.734 267.901 128.98 265.864Z" fill="#EE7563"/>
-            </svg>
-            
- </picture>
-                        </div>
-                        
+                <!-- Section onglet tabs -->
+                <section id="tab-content">
+                    <!-- Section onglet active -->
+                    <article class="content-section active" id="content-active">
+                        <!-- FORM -->
+                        <article id="article-form">
+                            <form>
+                                <div class="titre">
+                                    <h3>Crée ton compte en quelques étapes simples</h3>
+                                </div>
+                                <div id="div-form1" class="row">
 
-                        <div id="div-form6">
-                            <picture>
-                                <button class="bg2">Sauvegarder le broullion</button>
-                                <button class="btn-ctp">Publier votre transformation</button>
-                            </picture>
-                        </div>
-                    </form>
-                </article>
-            </section>
+                                    <picture>
+                                        <label for="produit" class="label">
+                                            <span>Nom *</span>
+                                            <input type="text" name="" id="produit" placeholder="">
+                                        </label>
+                                        <label for="cout" class="label">
+                                            <span>Prénom *</span>
+                                            <input type="text" id="cout" placeholder="">
+
+                                        </label>
+                                    </picture>
+                                </div>
+
+                                <div id="div-form1" class="row">
+                                    <picture>
+                                        <label for="produit" class="label">
+                                            <span>Sexe *</span>
+                                            <input type="text" name="" id="produit" placeholder="">
+                                        </label>
+                                        <label for="" class="label">
+                                            <span>Profession *</span>
+                                            <input type="text" id="" placeholder="">
+
+                                        </label>
+                                    </picture>
+                                </div>
+
+                                <div id="div-form2" class="row">
+                                    <label for="" class="label flex">
+                                        <span>Numero de telephone / Mobile *</span>
+                                        <input type="text" name="" id="" placeholder="">
+
+                                    </label>
+                                </div>
+
+                                <div id="div-form6">
+                                    <picture>
+                                        <button class="btn-ctp">Continue</button>
+                                    </picture>
+                                </div>
+                            </form>
+                        </article>
+                    </article>
+
+
+
+                    <!-- Section onglet desactive -->
+                    <article class="content-section" id="content-desactive">
+                        <!-- FORM -->
+                        <article id="article-form">
+                            <form>
+                                <div class="titre">
+                                    <h3>Crée votre compte en quelques étapes simples</h3>
+                                </div>
+                                <div id="div-form1" class="row">
+
+                                    <picture>
+                                        <label for="produit" class="label">
+                                            <span>Nom de la société *</span>
+                                            <input type="text" name="" id="produit" placeholder="">
+                                        </label>
+                                        <label for="cout" class="label">
+                                            <span>Numero de telephone / Mobile *</span>
+                                            <input type="text" id="cout" placeholder="">
+
+                                        </label>
+                                    </picture>
+                                </div>
+
+                                <div id="div-form2" class="row">
+                                    <label for="" class="label flex">
+                                        <span>SIREN *</span>
+                                        <input type="text" name="" id="" placeholder="">
+
+                                    </label>
+                                </div>
+
+                                <div id="div-form6">
+                                    <picture>
+                                        <button class="btn-ctp">Continue</button>
+                                    </picture>
+                                </div>
+                            </form>
+                        </article>
+                    </article>
+
+
+
+
+
+                </section>
         </main>
 
         <!-- FOOTER -->
     </div>
 
+    <script src="Javascript/input.js"></script>
     <script src="Javascript/script.js"></script>
 </body>
 
